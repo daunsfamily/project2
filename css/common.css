@@ -1,0 +1,831 @@
+:root {
+	--color_apple_com_white: #ffffff;
+	--color_apple_com_athens_gray: #f5f5f7;
+	--color_apple_com_shark: #1d1d1f;
+	--color_apple_com_black: #000000;
+	--color_apple_com_science_blue: #0071e3;
+	--color_apple_com_dodger_blue: #2997ff;
+	--color_apple_com_science_blue: #0066cc;
+	--color_apple_com_mid_gray: #6e6e73;
+	--color_apple_com_mischka: #e1dfe5;
+	--color_apple_com_azure_radiance: #007aff;
+	--color_apple_com_spring_wood: #f5f5ed;
+	--color_apple_com_radial_black_white: radial-gradient(#000000 0%,#ffffff 100%);
+	--color_apple_com_black_80: #000000;
+	--color_apple_com_black_42: #000000;
+	--color_apple_com_pampas: #ebe7e0;
+	--color_apple_com_linear_shark_black: linear-gradient(to bottom, #1d1d1f 0%,#000000 50%);
+	--color_apple_com_mirage: #181834;
+	--color_apple_com_mischka: #d2d2d7;
+	--color_apple_com_black_16: #000000;
+	--color_apple_com_black_56: #000000;
+	--color_apple_com_black_72: #000000;
+	--color_apple_com_black_88: #000000;
+	--color_apple_com_black_48: #000000;
+	--color_apple_com_white_80: #ffffff;
+	--color_www_apple_com_white: #ffffff;
+	--color_www_apple_com_linear_shark_white: linear-gradient(to bottom, #1d1d1f 2.09%,#ffffff 2.09%);
+	--color_www_apple_com_black: #000000;
+	--color_www_apple_com_athens_gray: #f5f5f7;
+	--color_www_apple_com_science_blue: #0071e3;
+	--color_www_apple_com_dodger_blue: #2997ff;
+	--color_www_apple_com_shark: #1d1d1f;
+	--color_www_apple_com_science_blue: #0066cc;
+	--color_www_apple_com_whisper: #fbfbfd;
+	--color_www_apple_com_link_water: #c7e6f1;
+	--color_www_apple_com_mid_gray: #6e6e73;
+	--color_www_apple_com_radial_black_white: radial-gradient(#000000 0%,#ffffff 100%);
+	--color_www_apple_com_black_80: #000000;
+	--color_www_apple_com_black_42: #000000;
+	--color_www_apple_com_mischka: #d2d2d7;
+	--color_www_apple_com_black_16: #000000;
+	--color_www_apple_com_black_56: #000000;
+	--color_www_apple_com_black_88: #000000;
+	--color_www_apple_com_black_72: #000000;
+	--color_www_apple_com_black_48: #000000;
+	--color_www_apple_com_dusty_gray: #999999;
+	--color_www_apple_com_woodsmoke_80: #161617;
+	--color_www_apple_com_white_80: #ffffff;
+	--color_www_apple_com_woodsmoke: #161617;
+	--color_www_apple_com_white_8: #ffffff;
+	--color_www_apple_com_white_92: #ffffff;
+	--color_www_apple_com_white_16: #ffffff;
+	--color_www_apple_com_linear_shark_white: linear-gradient(to bottom, #1d1d1f 2.14%,#ffffff 2.14%);
+	--color_www_apple_com_linear_shark_white: linear-gradient(to bottom, #1d1d1f 2.84%,#ffffff 2.84%);
+	--color_www_apple_com_linear_black_white_linear_black_black: linear-gradient(to bottom, #000000 50%,#000000 100%);
+	--color_primary_0: #666c80;
+	--color_primary_100: #5a637d;
+	--color_primary_200: #4d5879;
+	--color_primary_300: #414d72;
+	--color_primary_400: #364268;
+	--color_primary_500: #2b375b;
+	--color_primary_600: #212b4a;
+	--color_primary_700: #161d34;
+	--color_primary_800: #0b0f1b;
+	--color_primary_900: #000000;
+	--color_secondary_0: #d6d6d6;
+	--color_secondary_100: #d4c5c3;
+	--color_secondary_200: #cfb4af;
+	--color_secondary_300: #c7a29c;
+	--color_secondary_400: #bd9189;
+	--color_secondary_500: #ae8078;
+	--color_secondary_600: #9b6e66;
+	--color_secondary_700: #835b54;
+	--color_secondary_800: #674641;
+	--color_secondary_900: #4a322e;
+	--color_gray_0: #b3b3b3;
+	--color_gray_100: #afafaf;
+	--color_gray_200: #a9a9a9;
+	--color_gray_300: #a0a0a0;
+	--color_gray_400: #929292;
+	--color_gray_500: #808080;
+	--color_gray_600: #676767;
+	--color_gray_700: #494949;
+	--color_gray_800: #252525;
+	--color_gray_900: #000000;
+}
+.text_style_apple_com_arial_narrow_28 {
+	font-size: 28px;
+	font-family: Arial;
+	line-height: 32px;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_narrow_17 {
+	font-size: 17px;
+	font-family: Arial;
+	line-height: 20px;
+	letter-spacing: -0.37px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_bold_49_44 {
+	font-size: 49.4375px;
+	font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 60px;
+	letter-spacing: -0.28px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_bold_51_19 {
+	font-size: 51.1875px;
+	font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 60px;
+	letter-spacing: -0.28px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_narrow_21 {
+	font-size: 21px;
+	font-family: Arial;
+	line-height: 25px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_narrow_14 {
+	font-size: 14px;
+	font-family: Arial;
+	line-height: 20px;
+	letter-spacing: -0.22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_bold_36_88 {
+	font-size: 36.875px;
+	font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 44px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_narrow_17 {
+	font-size: 17px;
+	font-family: Arial;
+	line-height: 21px;
+	letter-spacing: -0.37px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_bold_15_31 {
+	font-size: 15.3125px;
+	font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_narrow_15_31 {
+	font-size: 15.3125px;
+	font-family: Arial;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_bold_15 {
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_narrow_15 {
+	font-size: 15px;
+	font-family: Arial;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_bold_14 {
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 18px;
+	letter-spacing: -0.22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_bold_13_89 {
+	font-size: 13.890625px;
+	font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 18px;
+	letter-spacing: -0.22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_narrow_12 {
+	font-size: 12px;
+	font-family: Arial;
+	line-height: 16px;
+	letter-spacing: -0.12px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_narrow_12_underline {
+	font-size: 12px;
+	font-family: Arial;
+	line-height: 16px;
+	letter-spacing: -0.12px;
+	text-decoration: underline;
+	text-transform: none;
+}
+.text_style_apple_com_arial_bold_12 {
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 16px;
+	letter-spacing: -0.12px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_apple_com_arial_bold_11_81 {
+	font-size: 11.8125px;
+	font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 16px;
+	letter-spacing: -0.12px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_49_77 {
+	font-size: 49.765625px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 66px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_21_88 {
+	font-size: 21.875px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 35px;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_13_15 {
+	font-size: 13.1484375px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 20px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_13_41 {
+	font-size: 13.4140625px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 20px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_21_98 {
+	font-size: 21.984375px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 35px;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_50_64 {
+	font-size: 50.640625px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 66px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_21_77 {
+	font-size: 21.765625px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 35px;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_16_57 {
+	font-size: 16.5703125px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 27px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_10_83 {
+	font-size: 10.828125px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_36_41 {
+	font-size: 36.40625px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 44px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_16_9 {
+	font-size: 16.8984375px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 27px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_11_05 {
+	font-size: 11.046875px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_16_08 {
+	font-size: 16.078125px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 27px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_16_41 {
+	font-size: 16.40625px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 27px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_13_28 {
+	font-size: 13.28125px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_16_24 {
+	font-size: 16.2421875px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 27px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_14_38 {
+	font-size: 14.375px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_14_38 {
+	font-size: 14.375px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_15 {
+	font-size: 15px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_15 {
+	font-size: 15px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_10_13 {
+	font-size: 10.125px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_9_19 {
+	font-size: 9.1875px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_9_75 {
+	font-size: 9.75px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_9_19 {
+	font-size: 9.1875px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_9_38 {
+	font-size: 9.375px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_12 {
+	font-size: 12px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_10_88 {
+	font-size: 10.875px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_9_56 {
+	font-size: 9.5625px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_9_56 {
+	font-size: 9.5625px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_10_69 {
+	font-size: 10.6875px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_11_25 {
+	font-size: 11.25px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_11_81 {
+	font-size: 11.8125px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_12 {
+	font-size: 12px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_11_44 {
+	font-size: 11.4375px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_10_31 {
+	font-size: 10.3125px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_10_5 {
+	font-size: 10.5px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_10_5 {
+	font-size: 10.5px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_9 {
+	font-size: 9px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_10_88_underline {
+	font-size: 10.875px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: underline;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_9_38_underline {
+	font-size: 9.375px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: underline;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_11_06 {
+	font-size: 11.0625px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_9_45 {
+	font-size: 9.453125px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 14.67px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_11_underline {
+	font-size: 11px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 14.67px;
+	text-decoration: underline;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_9_97 {
+	font-size: 9.96875px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 14.67px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_8_59_underline {
+	font-size: 8.59375px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 14.67px;
+	text-decoration: underline;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_13_13 {
+	font-size: 13.125px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_28_38 {
+	font-size: 28.375px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 39px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_14_84 {
+	font-size: 14.84375px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 25px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_28_88 {
+	font-size: 28.875px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 39px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_14_7 {
+	font-size: 14.6953125px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 25px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_29_13 {
+	font-size: 29.125px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 36px;
+	letter-spacing: 0.06px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_14_55 {
+	font-size: 14.546875px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 25px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_15_29 {
+	font-size: 15.2890625px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 25px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_14_99 {
+	font-size: 14.9921875px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 25px;
+	letter-spacing: 0.23px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_bold_9_02 {
+	font-size: 9.0234375px;
+	font-family: Malgun Gothic;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 20.29px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_11_6 {
+	font-size: 11.6015625px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 20.29px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_9_63 {
+	font-size: 9.625px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 14.67px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_malgun_gothic_regular_11 {
+	font-size: 11px;
+	font-family: Malgun Gothic;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 14.67px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_arial_narrow_12 {
+	font-size: 12px;
+	font-family: Arial;
+	line-height: 16px;
+	letter-spacing: -0.12px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_arial_narrow_14 {
+	font-size: 14px;
+	font-family: Arial;
+	line-height: 18px;
+	letter-spacing: -0.22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_arial_narrow_17 {
+	font-size: 17px;
+	font-family: Arial;
+	line-height: 36px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_segoe_ui_regular_12 {
+	font-size: 12px;
+	font-family: Segoe UI;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 16px;
+	letter-spacing: -0.12px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_segoe_ui_regular_14 {
+	font-size: 14px;
+	font-family: Segoe UI;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 18px;
+	letter-spacing: -0.22px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text_style_www_apple_com_segoe_ui_regular_17 {
+	font-size: 17px;
+	font-family: Segoe UI;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 36px;
+	text-decoration: none;
+	text-transform: none;
+}

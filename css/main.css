@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    height: 45px;
+    background-color: #111;
+
+}
+
+header .inner {
+    width: 100%;
+    max-width: 1024px;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+header .menu {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .menu li {
+    margin: 0 10px;
+}
+
+header .menu li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: SF Pro KR, SF Pro Text, SF Pro Icons, Apple Gothic, HY Gulim, MalgunGothic, HY Dotum, Lexi Gulim, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+main .hero {
+    width: 100%;
+    height: 2102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+main .hero>div {
+    width: 1024px;
+    height: 696px;
+    background-color: #555;
+}
+
+main .hero .ipad-pro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+main .hero .ipad-pro .h1{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+main .hero .iphone-pro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+main .hero .iphone-15 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+
+}
+
+main .promo {
+    width: 100%;
+    height: 1797px;
+    background-color: #999;
+    flex-direction: column;
+}
+
+main .promo .inner_row {
+    display: flex;
+    width: 1386px;
+    height: 570px;
+    margin: auto;
+    background-color: #333;
+}
+
+main .tv .inner_row {
+    display: flex;
+    width: 1386px;
+    height: 554px;
+    background-color: #555;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    height: 820px;
+    background-color: #666;
+}
+
+footer .foot-note {
+    width: 1024px;
+    height: 228px;
+    background-color: #777;
+    margin: auto;
+}
+
+footer .foot-directory {
+    width: 1024px;
+    height: 396px;
+    background-color: #555;
+    margin: auto;
+}
+
+footer .foot-corp {
+    width: 1024px;
+    height: 159px;
+    margin: auto;
+    background-color: #888;
+}
